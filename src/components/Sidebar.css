@@ -1,0 +1,39 @@
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+.sidenav .nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+}
+
+.sidenav .nav-link {
+  padding: 8px 8px 8px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #929191;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav .nav-link:hover {
+  color: #0c0c0c;
+  background-color: #0e0ee9;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 20px;
+  margin-left: 50px;
+}

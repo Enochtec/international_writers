@@ -1,0 +1,27 @@
+#withdrawFunds {
+    padding: 20px;
+  }
+  
+  #withdrawFunds h3 {
+    margin-bottom: 20px;
+  }
+  
+  #withdrawFunds form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #withdrawFunds form label {
+    margin-bottom: 5px;
+  }
+  
+  #withdrawFunds form input,
+  #withdrawFunds form select {
+    margin-bottom: 10px;
+  }
+  
+  #withdrawFunds form button {
+    width: 100px;
+    padding: 5px;
+  }
+  
